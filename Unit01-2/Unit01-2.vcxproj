@@ -87,6 +87,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BaseWindow.hpp" />
+    <ClInclude Include="Bezier.hpp" />
     <ClInclude Include="CubicBezierCurve.hpp" />
     <ClInclude Include="P2D.h" />
   </ItemGroup>
