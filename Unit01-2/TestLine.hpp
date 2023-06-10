@@ -2,7 +2,7 @@
 #include "BaseWindow.hpp"
 #include <stdio.h>
 
-class DrewLine : public BaseWindow<DrewLine>
+class TestLine : public BaseWindow<TestLine>
 {
 public:
 	PCWSTR  ClassName() const { return L"Unit01-2 DrewLine"; }
@@ -59,22 +59,6 @@ public:
 
 	};
 
-public:
-	// 绘制直线
-	void Draw(HDC hdc)
-	{
-		MoveToEx(hdc, 100, 100, NULL);
-		LineTo(hdc, 500, 100);
-	}
-
-	// 两点绘制直线
-	void Drew(HDC hdc, POINT pt1, POINT pt2)
-	{
-		MoveToEx(hdc, pt1.x, pt1.y, NULL);
-
-		LineTo(hdc, pt2.x, pt2.y);
-	}
-
     // 运行程序
     int OnRun(int nCmdShow)
     {
@@ -93,6 +77,24 @@ public:
             DispatchMessage(&msg);
         }
     };
+
+public:
+	// 绘制直线
+	void Draw(HDC hdc)
+	{
+		MoveToEx(hdc, 100, 100, NULL);
+		LineTo(hdc, 500, 100);
+	}
+
+	// 两点绘制直线
+	void Drew(HDC hdc, POINT pt1, POINT pt2)
+	{
+		MoveToEx(hdc, pt1.x, pt1.y, NULL);
+
+		LineTo(hdc, pt2.x, pt2.y);
+	}
+
+   
 	
 private:
 	POINT m_pt1;

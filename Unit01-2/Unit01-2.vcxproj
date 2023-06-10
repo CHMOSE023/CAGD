@@ -81,14 +81,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="DrewLine.hpp" />
+    <ClCompile Include="TestLine.hpp" />
     <ClCompile Include="Window.cpp" />
     <ClCompile Include="MainWindow.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BaseWindow.hpp" />
-    <ClInclude Include="Bezier.hpp" />
-    <ClInclude Include="P2.h" />
+    <ClInclude Include="CubicBezierCurve.hpp" />
+    <ClInclude Include="P2D.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

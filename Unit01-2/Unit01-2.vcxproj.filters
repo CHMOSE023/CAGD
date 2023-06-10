@@ -18,10 +18,10 @@
     <ClInclude Include="BaseWindow.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Bezier.hpp">
+    <ClInclude Include="CubicBezierCurve.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="P2.h">
+    <ClInclude Include="P2D.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -32,7 +32,7 @@
     <ClCompile Include="Window.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="DrewLine.hpp">
+    <ClCompile Include="TestLine.hpp">
       <Filter>头文件</Filter>
     </ClCompile>
   </ItemGroup>
