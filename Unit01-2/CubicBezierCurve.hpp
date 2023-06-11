@@ -13,6 +13,7 @@ public:
 	void    ReadPoint(P2D* p);
 	void    Draw(HDC hdc);
 	void    DrawControlPolygon(HDC hdc);
+
 	int     OnRun(int nCmdShow);
 	LRESULT HandleMessage(UINT uMsg, WPARAM wParam, LPARAM lParam);
 	PCWSTR  ClassName()const;
@@ -38,7 +39,7 @@ LRESULT CubicBezierCurve::HandleMessage(UINT uMsg, WPARAM wParam, LPARAM lParam)
 	{
 		PAINTSTRUCT ps;
 		HDC   hdc = BeginPaint(m_hwnd, &ps);
-		RECT rect;
+		//RECT  rect;
 
 		// £¡»æÖÆ´úÂë      
 		Draw(hdc);
@@ -70,6 +71,8 @@ int CubicBezierCurve::OnRun(int nCmdShow)
 		TranslateMessage(&msg);
 		DispatchMessage(&msg);
 	}
+
+	return 0;
 }
 
 void CubicBezierCurve::ReadPoint(P2D* p2d)

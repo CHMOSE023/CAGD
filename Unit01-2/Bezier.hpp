@@ -9,13 +9,11 @@ using std::vector;
 class  Bezier :public BaseWindow <Bezier>
 {
 public:
-	Bezier();
-	virtual ~Bezier();
+	Bezier() {};
+	virtual ~Bezier() {};
 
 	void ReadPoint(P2D* p2ds, int n);
-
 	void Draw(HDC hdc);
-
 	void DrawControlPolygon(HDC hdc);
 
 	
@@ -29,11 +27,8 @@ private:
 
 public:
 	vector<P2D> P2ds;
-	int N;
+	int N=0;
 };
-
-Bezier::Bezier() {};
-Bezier::~Bezier() {};
 
 PCWSTR Bezier::ClassName()const
 {

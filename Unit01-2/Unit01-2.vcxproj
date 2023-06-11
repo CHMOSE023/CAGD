@@ -81,6 +81,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BezierCurve.hpp" />
     <ClCompile Include="TestLine.hpp" />
     <ClCompile Include="Window.cpp" />
     <ClCompile Include="MainWindow.hpp" />
@@ -88,6 +89,7 @@
   <ItemGroup>
     <ClInclude Include="BaseWindow.hpp" />
     <ClInclude Include="Bezier.hpp" />
+    <ClInclude Include="BezierDeCasteljau.hpp" />
     <ClInclude Include="CubicBezierCurve.hpp" />
     <ClInclude Include="P2D.h" />
   </ItemGroup>
