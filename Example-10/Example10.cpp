@@ -38,7 +38,7 @@ LRESULT MainWindow::HandleMessage(UINT uMsg, WPARAM wParam, LPARAM lParam)
         SetViewportExtEx(hdc, width, -height, NULL);
         SetViewportOrgEx(hdc, width / 2, height / 2, NULL);
 
-        // ±ãÒËRect
+        // Æ«ÒÆRect
         OffsetRect(&rect, -width / 2, -height / 2);
 
         // µ÷ÕûhMemDC×ø±ê

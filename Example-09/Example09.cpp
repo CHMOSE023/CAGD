@@ -16,7 +16,7 @@ LRESULT MainWindow::HandleMessage(UINT uMsg, WPARAM wParam, LPARAM lParam)
     P2          centerPoint[9];     // 中心点
     double      rotationAngle[9];   // 旋转角度
     static bool bPlay = true;       // 选项
-    int         a = 500;
+    int         a = 200;
 
     centerPoint[0] = P2(0.0, 0.0);
     rotationAngle[0] = 0;
@@ -75,7 +75,8 @@ LRESULT MainWindow::HandleMessage(UINT uMsg, WPARAM wParam, LPARAM lParam)
         int width = rect.right - rect.left;
         int height = rect.bottom - rect.top;
 
-        SetMapMode(hdc, MM_LOMETRIC);
+        SetMapMode(hdc, MM_ANISOTROPIC);
+        SetWindowExtEx(hdc, width, height, NULL);
         SetViewportExtEx(hdc, width, height, NULL);
         SetViewportOrgEx(hdc, width / 2, height / 2,NULL);
 

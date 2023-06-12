@@ -1,4 +1,5 @@
 #pragma once
+#include "Bezier.h"
 #include <stdio.h>
 #include <vector>
 #include "BaseWindow.hpp"
@@ -12,6 +13,10 @@ public:
 	Bezier() {};
 
 	virtual ~Bezier() {}
+
+	inline void Bezier::ReadPoint(P2* points, int num)
+	{
+	}
 
 	void ReadPoint(P2D* p2ds, int n) 
 	{

@@ -13,6 +13,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Example-09", "Example-09\Ex
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Example-10", "Example-10\Example-10.vcxproj", "{DFE3A387-F6E7-4CA8-9BC2-EA79AAE32BD2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Example-01", "Example-01\Example-01.vcxproj", "{F9BAC7A3-9C98-4CBD-90A0-289EB6DAC19F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Example-02", "Example-02\Example-02.vcxproj", "{2A40655F-4C84-4914-8AE1-91E2075EEECC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Example-04 Bezier曲线定义算法", "Example-04 Bezier曲线定义算法\Example-04 Bezier曲线定义算法.vcxproj", "{DFD7E1BD-FF04-4964-8BE9-915A464C10F8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Example-05 Bezier曲线 deCasteljau算法", "Example-05 Bezier曲线 deCasteljau算法\Example-05 Bezier曲线 deCasteljau算法.vcxproj", "{24B2642D-174B-4451-B0B6-C61B8FF331A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -59,6 +67,38 @@ Global
 		{DFE3A387-F6E7-4CA8-9BC2-EA79AAE32BD2}.Release|x64.Build.0 = Release|x64
 		{DFE3A387-F6E7-4CA8-9BC2-EA79AAE32BD2}.Release|x86.ActiveCfg = Release|x64
 		{DFE3A387-F6E7-4CA8-9BC2-EA79AAE32BD2}.Release|x86.Build.0 = Release|x64
+		{F9BAC7A3-9C98-4CBD-90A0-289EB6DAC19F}.Debug|x64.ActiveCfg = Debug|x64
+		{F9BAC7A3-9C98-4CBD-90A0-289EB6DAC19F}.Debug|x64.Build.0 = Debug|x64
+		{F9BAC7A3-9C98-4CBD-90A0-289EB6DAC19F}.Debug|x86.ActiveCfg = Debug|x64
+		{F9BAC7A3-9C98-4CBD-90A0-289EB6DAC19F}.Debug|x86.Build.0 = Debug|x64
+		{F9BAC7A3-9C98-4CBD-90A0-289EB6DAC19F}.Release|x64.ActiveCfg = Release|x64
+		{F9BAC7A3-9C98-4CBD-90A0-289EB6DAC19F}.Release|x64.Build.0 = Release|x64
+		{F9BAC7A3-9C98-4CBD-90A0-289EB6DAC19F}.Release|x86.ActiveCfg = Release|x64
+		{F9BAC7A3-9C98-4CBD-90A0-289EB6DAC19F}.Release|x86.Build.0 = Release|x64
+		{2A40655F-4C84-4914-8AE1-91E2075EEECC}.Debug|x64.ActiveCfg = Debug|x64
+		{2A40655F-4C84-4914-8AE1-91E2075EEECC}.Debug|x64.Build.0 = Debug|x64
+		{2A40655F-4C84-4914-8AE1-91E2075EEECC}.Debug|x86.ActiveCfg = Debug|x64
+		{2A40655F-4C84-4914-8AE1-91E2075EEECC}.Debug|x86.Build.0 = Debug|x64
+		{2A40655F-4C84-4914-8AE1-91E2075EEECC}.Release|x64.ActiveCfg = Release|x64
+		{2A40655F-4C84-4914-8AE1-91E2075EEECC}.Release|x64.Build.0 = Release|x64
+		{2A40655F-4C84-4914-8AE1-91E2075EEECC}.Release|x86.ActiveCfg = Release|x64
+		{2A40655F-4C84-4914-8AE1-91E2075EEECC}.Release|x86.Build.0 = Release|x64
+		{DFD7E1BD-FF04-4964-8BE9-915A464C10F8}.Debug|x64.ActiveCfg = Debug|x64
+		{DFD7E1BD-FF04-4964-8BE9-915A464C10F8}.Debug|x64.Build.0 = Debug|x64
+		{DFD7E1BD-FF04-4964-8BE9-915A464C10F8}.Debug|x86.ActiveCfg = Debug|x64
+		{DFD7E1BD-FF04-4964-8BE9-915A464C10F8}.Debug|x86.Build.0 = Debug|x64
+		{DFD7E1BD-FF04-4964-8BE9-915A464C10F8}.Release|x64.ActiveCfg = Release|x64
+		{DFD7E1BD-FF04-4964-8BE9-915A464C10F8}.Release|x64.Build.0 = Release|x64
+		{DFD7E1BD-FF04-4964-8BE9-915A464C10F8}.Release|x86.ActiveCfg = Release|x64
+		{DFD7E1BD-FF04-4964-8BE9-915A464C10F8}.Release|x86.Build.0 = Release|x64
+		{24B2642D-174B-4451-B0B6-C61B8FF331A8}.Debug|x64.ActiveCfg = Debug|x64
+		{24B2642D-174B-4451-B0B6-C61B8FF331A8}.Debug|x64.Build.0 = Debug|x64
+		{24B2642D-174B-4451-B0B6-C61B8FF331A8}.Debug|x86.ActiveCfg = Debug|x64
+		{24B2642D-174B-4451-B0B6-C61B8FF331A8}.Debug|x86.Build.0 = Debug|x64
+		{24B2642D-174B-4451-B0B6-C61B8FF331A8}.Release|x64.ActiveCfg = Release|x64
+		{24B2642D-174B-4451-B0B6-C61B8FF331A8}.Release|x64.Build.0 = Release|x64
+		{24B2642D-174B-4451-B0B6-C61B8FF331A8}.Release|x86.ActiveCfg = Release|x64
+		{24B2642D-174B-4451-B0B6-C61B8FF331A8}.Release|x86.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
