@@ -29,6 +29,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Example-10 双缓冲动画�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Example-11 三维变换与投影", "Example-11 三维变换与投影\Example-11 三维变换与投影.vcxproj", "{37BE2893-DC73-4465-988A-C453C79F1325}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Example-12 双三次Bezier曲面片定义", "Example-12 双三次Bezier曲面片定义\Example-12 双三次Bezier曲面片定义.vcxproj", "{58127184-AFA8-45B8-B52F-65596BE3D245}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -139,6 +141,14 @@ Global
 		{37BE2893-DC73-4465-988A-C453C79F1325}.Release|x64.Build.0 = Release|x64
 		{37BE2893-DC73-4465-988A-C453C79F1325}.Release|x86.ActiveCfg = Release|x64
 		{37BE2893-DC73-4465-988A-C453C79F1325}.Release|x86.Build.0 = Release|x64
+		{58127184-AFA8-45B8-B52F-65596BE3D245}.Debug|x64.ActiveCfg = Debug|x64
+		{58127184-AFA8-45B8-B52F-65596BE3D245}.Debug|x64.Build.0 = Debug|x64
+		{58127184-AFA8-45B8-B52F-65596BE3D245}.Debug|x86.ActiveCfg = Debug|x64
+		{58127184-AFA8-45B8-B52F-65596BE3D245}.Debug|x86.Build.0 = Debug|x64
+		{58127184-AFA8-45B8-B52F-65596BE3D245}.Release|x64.ActiveCfg = Release|x64
+		{58127184-AFA8-45B8-B52F-65596BE3D245}.Release|x64.Build.0 = Release|x64
+		{58127184-AFA8-45B8-B52F-65596BE3D245}.Release|x86.ActiveCfg = Release|x64
+		{58127184-AFA8-45B8-B52F-65596BE3D245}.Release|x86.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
